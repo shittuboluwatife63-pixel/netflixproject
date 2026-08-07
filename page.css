@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+.nav-container{
+    color: aqua;
+background-image: linear-gradient(to right,rgb(123, 41, 153), rgb(196, 16, 34));
+}
+
+.div-cont{
+    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(./imageye___-_imgi_6_NG-en-20260803-TRIFECTA-perspective_b93c7561-e9f5-49e8-a877-cb91200dd005_small.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
