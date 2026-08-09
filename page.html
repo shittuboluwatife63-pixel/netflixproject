@@ -1,20 +1,154 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
- <link rel="stylesheet" href="./page.css">
-  </head>
-  <body>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="page.css">
+</head>
+
+<body class="bg-dark">
     <nav class="nav-container d-flex justify-content-center p-2 ">
         <p class="text-color-light text-bold">New to Netflix?Try 30 Days for EUR 0.</p>
     </nav>
-    <div>
-        <div class="div-cont "><img src="./imageye___-_imgi_3_Netflix_Logo_PMS.png" alt="" class="w-25"></div>
+    <div class="">
+        <div class="div-cont ">
+            <img src="./images/imageye___-_imgi_3_Netflix_Logo_PMS.png" alt="" class="wsssss">
+            <!-- <button class="danger padding-left ">sign in</button> -->
+
+
+            <div class="padding">
+                <h1 class="pad mb-5">Unlimited movies,Tv <br>shows,and more</h1>
+                <h5 class="mb-4">Plans start at #2,500. Cancel anytime.</h5>
+                <p class="mb-3">Ready to watch?Enter your email to start your membership.</p>
+                <div class="d-flex justify-content-center gap-2 padee">
+                    <input type="email" placeholder="Email address" class="w-25">
+
+
+                    <button class="btn btn-danger px-4 p-2">Try 30 Days for #0</button>
+                </div>
+
+            </div>
+        </div>
     </div>
-  </body>
-     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <div class="gradientline"></div>
+
+
+    <section class="bg-dark m-100">
+        <h2 class="text-light">Trending Now</h2>
+
+        <div id="movieCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
+
+            <div class="carousel-inner">
+
+
+                <div class="carousel-item active">
+                    <div class="movie-row">
+
+                        <img src="./images/imageye___-_imgi_20_AAAABdqa3soiO1KTrWi85Gx-ADgSE8xtDXGW0ImRCcXK6Ni8u3m23anJb3xJCtDAMhEYMUuNc-vlL6DkMFJyESVMGJDwuUlCtN3KwGk.webp"
+                            class="movie-img">
+                        <img src="./images/imageye___-_imgi_21_AAAABYMJOpwnAZIoMUgOROfg4f5HaS2Rs-vsp9ue-oVi_GpL52CBKfYbmqe7miOu8l3BDGv-6_r-5SsZUrBb4vPxDuKNnZotR0Un3O4Kyxh5fgqD2BnjYtqM4mKoepuEZeZrYfF5.webp"
+                            class="movie-img">
+                        <img src="./images/imageye___-_imgi_22_AAAABZCAj_cjZ0VPF4_qeXYvIyyqKAzsm_rBTGONuyQXScqkmWQihnkqq-HNGREZrqkYh4T0jY2wBf3bWHhuxVfdte_zEkBCEim72KZKSPS7PQ2VZsocyROFd7xn50C2e8UjJvep.webp"
+                            class="movie-img">
+                        <img src="./images/imageye___-_imgi_23_AAAABR1FkTExzj5mZAniFP89syyuN1NQ0oxv-bMAO56QZ7YXi4SoSv-tG8NVzxvBdbwiiYBRmZGoL3zhwzNMpMp-gchNW3oMuNpgTY8.webp"
+                            class="movie-img">
+                        <img src="./images/imageye___-_imgi_24_AAAABV_oJPedN9O1LzeglIVBrs8pKCDK5S1GXPWpKz70PruwgasoAwUBt7BT2bj7O1vIRmypdFe_0tvy5mM2oHT3FmOm9hVkRTPhzv90b_R9855lzsRaV5i-IN8IjaG18Arvvqed.webp"
+                            class="movie-img">
+
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="movie-row">
+
+                        <img src="./images/imageye___-_imgi_25_AAAABeGtVfRUQaCDtTppYUMK2KSgmJdVZjmAYhKXHdkPKnfmLQrH9I4yNE_Rp43H2AYnhNCpxcJBVBnbWH7PRUKWiERMt5eP5ytBzykJU5VXiIVeqHPJVd5yBst9XGTH3iqT42kS.webp"
+                            class="movie-img">
+                        <img src="./images/imageye___-_imgi_26_AAAABTRbColAsVlMJR9Ln3qgfnqf35TrAf2eeEHCLqHs2hDwWSWfffLr5QMPoNtLpzNcPYswJ2nZn6_6A7hP6HQW0IQ7Iw0t4-OQrXA.webp"
+                            class="movie-img">
+                        <img src="./images/imageye___-_imgi_27_AAAABbkXDlESu-ShV8oo7U7EIUUmliA7J2TQIIxKIw3Ib70YitNiQnxVLy0MBO1HqDrO-SBFbLJ4KCRtZNOrIQZed6CpzYmIRvcjPLJuzO-95MgKpPiMvEo8eGQIcTLcCFV8JTbq.webp"
+                            class="movie-img">
+                        <img src="./images/imageye___-_imgi_28_AAAABey5lw4v896J74dDV2hvx20p8hTZa5vxGAoClt5pgnFJvy8VtkaZe9CZgEjrdrNcTnAo_jOSlSRkbWxhyw9iIGCibAMxPpo2gkw.webp"
+                            class="movie-img">
+                        <img src="./images/imageye___-_imgi_29_AAAABT3fC8I6khza3PL7vuoiqEcPs6Yko6i66Dukx7OSb0mQ_g7MHT5KSHJXvY4s1by3qnDg7fGxVvDw2fd0G0XYXRL9FChbRkVLh5M.webp"
+                            class="movie-img">
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <button class="carousel-control-prev netflix-arrow" type="button" data-bs-target="#movieCarousel"
+                data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon"></span>
+
+            </button>
+
+            <button class="carousel-control-next netflix-arrow" type="button" data-bs-target="#movieCarousel"
+                data-bs-slide="next">
+
+                <span class="carousel-control-next-icon"></span>
+
+            </button>
+
+        </div>
+
+
+    </section>
+    <h3 class="bg-dark text-light">More Reasons To Join</h3>
+    <section class="d-flex bg-dark gap-5 p-3">
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card bg-dark text-light" style="width: 18rem;">Enjoy on Your Tv</h5>
+                <p class="card-text">Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and
+                    more.</p>
+                <img src="./images/tv.svg" class="card-img-top w-25" alt="...">
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card bg-dark text-light" style="width: 18rem;" >Download your shows to watch offline</h5>
+                <p class="card-text">
+                    Save your favorites easily and always have something to watch.</p>
+                <img src="./images/down.svg" class="card-img-top w-25" alt="...">
+            </div>
+        </div>
+    
+            <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                    <h5 class="card bg-dark text-light" style="width: 18rem;">Watch everywhere</h5>
+                    <p class="card-text">
+                        Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                    <img src="./images/arrow.svg" class="card-img-top w-25" alt="...">
+                </div>
+            </div>
+
+
+        
+                <div class="card" style="width: 18rem;">
+                    <div class="card-body">
+                        <h5 class="card bg-dark text-light" style="width: 18rem;">Create profiles for kids
+
+                            <h5>
+                                <p class="card-text">
+                                    Send kids on adventures with their favorite characters in a space made just for them
+                                    — free with your membership.</p>
+                                <img src="./images/box.svg" class="card-img-top w-25" alt="...">
+                    </div>
+                </div>
+            </section>
+
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" *
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+
 </html>

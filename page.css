@@ -1,16 +1,120 @@
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing:border-box ;
-}
-.nav-container{
-    color: aqua;
-background-image: linear-gradient(to right,rgb(123, 41, 153), rgb(196, 16, 34));
+    box-sizing: border-box;
 }
 
-.div-cont{
-    background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url(./imageye___-_imgi_6_NG-en-20260803-TRIFECTA-perspective_b93c7561-e9f5-49e8-a877-cb91200dd005_small.jpg);
+.nav-container {
+    color: aqua;
+    background-image: linear-gradient(to right, rgb(123, 41, 153), rgb(196, 16, 34));
+    position: fixed;
+    width: 100%;
+
+}
+
+.div-cont {
+    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(./images/imageye___-_imgi_6_NG-en-20260803-TRIFECTA-perspective_b93c7561-e9f5-49e8-a877-cb91200dd005_small.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
 }
+
+.wsssss {
+    width: 240px;
+    padding-left: 100px;
+    padding-top: 55px;
+}
+
+.danger {
+    background-color: red;
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+    color: white;
+    justify-content: space-evenly;
+    gap: 300px;
+}
+
+.padding {
+    color: white;
+    padding-left: 410px;
+    padding-top: 170px;
+
+}
+.pad{
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 1;
+}
+.padee{
+    padding-right: 500px;
+}
+/* 
+.gradient-line {
+    width: 100%;
+    height: 8px;
+    background: linear-gradient(
+        to right,
+    );
+    border-radius: 100%;
+} */
+
+.gradientline{
+    height: 6px;
+    width: 100%;
+    background: linear-gradient(to right, 
+        #00c6ff,
+        #0072ff,
+        #6a00ff,
+        #00c6ff);
+    border-radius: 100%;
+} 
+
+.movie-row {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    padding: 10px 50px;
+}
+
+.movie-img {
+    width: calc((100% - 60px) / 5);
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+/* .movie-row {
+    display: flex;
+    gap: 15px;
+    padding: 10px 50px;
+}
+
+.movie-img {
+    width: 180px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+    flex-shrink: 0;
+} */
+
+.netflix-arrow {
+    width: 50px;
+    background: rgba(0, 0, 0, 0.6);
+    opacity: 1;
+}
+
+.netflix-arrow:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+
+.card-body{
+    background-color: black;
+}
+/* 
+.btnn {
+    padding-right: 80px;
+    padding: 10px 1px;
+    background-color: #1F2221;
+    border: white;
+} */
